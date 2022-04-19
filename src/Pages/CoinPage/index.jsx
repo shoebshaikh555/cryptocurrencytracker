@@ -76,11 +76,10 @@ export const CoinPage = () => {
   }, []);
 
   const inWatchList = watchList.includes(coin?.id);
-  console.log({ coin });
+
   const addToWatchList = async () => {
     const coinRef = doc(db, "watchlist", user.uid);
     try {
-      console.log("in try");
       await setDoc(coinRef, {
         coins: watchList ? [...watchList, coin?.id] : [coin?.id],
       });
@@ -101,7 +100,6 @@ export const CoinPage = () => {
   const removeFromTheWatchList = async () => {
     const coinRef = doc(db, "watchlist", user.uid);
     try {
-      console.log("in try");
       await setDoc(
         coinRef,
         {

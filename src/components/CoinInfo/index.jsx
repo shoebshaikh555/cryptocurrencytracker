@@ -57,7 +57,6 @@ export const CoinInfo = ({ coin }) => {
   useEffect(() => {
     fetchHistoricData();
   }, [currency, days]);
-  console.log({ days });
   return (
     <ThemeProvider theme={darkTheme}>
       <div className={classes.container}>
