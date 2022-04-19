@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/cryptocurrencytracker/static/css/main.1a9a7a29.css",
+    "main.js": "/cryptocurrencytracker/static/js/main.fb908333.js",
+    "static/media/banner.jpg": "/cryptocurrencytracker/static/media/banner.f9896af36cf39b31b27a.jpg",
+    "index.html": "/cryptocurrencytracker/index.html",
+    "main.1a9a7a29.css.map": "/cryptocurrencytracker/static/css/main.1a9a7a29.css.map",
+    "main.fb908333.js.map": "/cryptocurrencytracker/static/js/main.fb908333.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a9a7a29.css",
+    "static/js/main.fb908333.js"
+  ]
+}
